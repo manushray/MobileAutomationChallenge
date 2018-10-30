@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="71.2" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sdwivedi/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="maven.home" value="/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge/EMBEDDED"/>
+    <property name="surefire.test.class.path" value="/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge/target/test-classes:/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge/target/classes:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-testng/2.22.0/surefire-testng-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/common-java5/2.22.0/common-java5-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-api/2.22.0/surefire-api-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-logger-api/2.22.0/surefire-logger-api-2.22.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-java/3.13.0/selenium-java-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-api/3.13.0/selenium-api-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-chrome-driver/3.13.0/selenium-chrome-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-edge-driver/3.13.0/selenium-edge-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-firefox-driver/3.13.0/selenium-firefox-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-ie-driver/3.13.0/selenium-ie-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-opera-driver/3.13.0/selenium-opera-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-remote-driver/3.13.0/selenium-remote-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-safari-driver/3.13.0/selenium-safari-driver-3.13.0.jar:/Users/sdwivedi/.m2/org/seleniumhq/selenium/selenium-support/3.13.0/selenium-support-3.13.0.jar:/Users/sdwivedi/.m2/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/sdwivedi/.m2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/sdwivedi/.m2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/sdwivedi/.m2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/sdwivedi/.m2/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/sdwivedi/.m2/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/sdwivedi/.m2/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/sdwivedi/.m2/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/sdwivedi/.m2/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/sdwivedi/.m2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/sdwivedi/.m2/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/sdwivedi/.m2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/sdwivedi/.m2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/Users/sdwivedi/.m2/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/Users/sdwivedi/.m2/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:/Users/sdwivedi/.m2/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sdwivedi/.m2/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sdwivedi/.m2/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sdwivedi/.m2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/Users/sdwivedi/.m2/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/Users/sdwivedi/.m2/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/sdwivedi/.m2/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/Users/sdwivedi/.m2/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar:/Users/sdwivedi/.m2/org/jsoup/jsoup/1.8.3/jsoup-1.8.3.jar:/Users/sdwivedi/.m2/org/xerial/sqlite-jdbc/3.8.11.1/sqlite-jdbc-3.8.11.1.jar:/Users/sdwivedi/.m2/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/sdwivedi/.m2/org/mongodb/mongodb-driver/3.0.4/mongodb-driver-3.0.4.jar:/Users/sdwivedi/.m2/org/mongodb/bson/3.0.4/bson-3.0.4.jar:/Users/sdwivedi/.m2/org/mongodb/mongodb-driver-core/3.0.4/mongodb-driver-core-3.0.4.jar:/Users/sdwivedi/.m2/org/apache/logging/log4j/log4j-api/2.5/log4j-api-2.5.jar:/Users/sdwivedi/.m2/org/apache/logging/log4j/log4j-core/2.5/log4j-core-2.5.jar:/Users/sdwivedi/.m2/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/sdwivedi/.m2/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/sdwivedi/.m2/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/sdwivedi/.m2/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/sdwivedi/.m2/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/sdwivedi/.m2/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/sdwivedi/.m2/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/sdwivedi/.m2/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/sdwivedi/.m2/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/sdwivedi/.m2/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/sdwivedi/.m2/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/sdwivedi/.m2/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/sdwivedi/.m2/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/sdwivedi/.m2/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-testng-utils/2.22.0/surefire-testng-utils-2.22.0.jar:/Users/sdwivedi/.m2/org/apache/maven/surefire/surefire-grouper/2.22.0/surefire-grouper-2.22.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sdwivedi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="sdwivedi"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sdwivedi/.m2"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/0k/pp3gdk612wnffp0hkhdrf14w2_trdx/T/"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/sdwivedi/Downloads/MobileAutomation/mobileAndriodChallenge"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sdwivedi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="classworlds.conf" value="/Users/sdwivedi/Downloads/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf42356686404031310.tmp"/>
+    <property name="java.ext.dirs" value="/Users/sdwivedi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="firstScenarioTestMethod" classname="mobileAndriod.mobileAndriodChallenge.AppTest" time="15.849"/>
+  <testcase name="secondScenarioTtestMethod" classname="mobileAndriod.mobileAndriodChallenge.AppTest" time="16.568"/>
+  <testcase name="thirdScenarioTtestMethod" classname="mobileAndriod.mobileAndriodChallenge.AppTest" time="16.038"/>
+</testsuite>

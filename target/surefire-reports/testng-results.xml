@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="mobile Andriod Native App Suite" duration-ms="70071" started-at="2018-10-30T21:24:41Z" finished-at="2018-10-30T21:25:51Z">
+    <groups>
+    </groups>
+    <test name="mobile Andriod CalculationApp" duration-ms="70071" started-at="2018-10-30T21:24:41Z" finished-at="2018-10-30T21:25:51Z">
+      <class name="mobileAndriod.mobileAndriodChallenge.AppTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="setup" is-config="true" duration-ms="8971" started-at="2018-10-30T21:24:41Z" finished-at="2018-10-30T21:24:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firstScenarioTestMethod()[pri:1, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="firstScenarioTestMethod" duration-ms="15848" started-at="2018-10-30T21:24:50Z" finished-at="2018-10-30T21:25:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstScenarioTestMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="tearDown" is-config="true" duration-ms="897" started-at="2018-10-30T21:25:05Z" finished-at="2018-10-30T21:25:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstScenarioTestMethod status=SUCCESS method=AppTest.firstScenarioTestMethod()[pri:1, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="setup" is-config="true" duration-ms="5336" started-at="2018-10-30T21:25:06Z" finished-at="2018-10-30T21:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="secondScenarioTtestMethod()[pri:2, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="secondScenarioTtestMethod" duration-ms="16568" started-at="2018-10-30T21:25:12Z" finished-at="2018-10-30T21:25:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondScenarioTtestMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="tearDown" is-config="true" duration-ms="830" started-at="2018-10-30T21:25:28Z" finished-at="2018-10-30T21:25:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=secondScenarioTtestMethod status=SUCCESS method=AppTest.secondScenarioTtestMethod()[pri:2, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="setup" is-config="true" duration-ms="4836" started-at="2018-10-30T21:25:29Z" finished-at="2018-10-30T21:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="thirdScenarioTtestMethod()[pri:3, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="thirdScenarioTtestMethod" duration-ms="16038" started-at="2018-10-30T21:25:34Z" finished-at="2018-10-30T21:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdScenarioTtestMethod -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d]" name="tearDown" is-config="true" duration-ms="725" started-at="2018-10-30T21:25:50Z" finished-at="2018-10-30T21:25:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=thirdScenarioTtestMethod status=SUCCESS method=AppTest.thirdScenarioTtestMethod()[pri:3, instance:mobileAndriod.mobileAndriodChallenge.AppTest@46c3a14d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobileAndriod.mobileAndriodChallenge.AppTest -->
+    </test> <!-- mobile Andriod CalculationApp -->
+  </suite> <!-- mobile Andriod Native App Suite -->
+</testng-results>
